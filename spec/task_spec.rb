@@ -1,6 +1,9 @@
 require 'spec_helper'
 
 describe Task do
+
+  it { should belong_to :list }
+
   it 'can return the incomplete tasks' do
     not_done_tasks = (1..2).to_a.map do |number|
       Task.create(:name => "task #{number}", :done => false)

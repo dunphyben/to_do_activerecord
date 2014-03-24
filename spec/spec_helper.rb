@@ -1,7 +1,9 @@
 require 'active_record'
 require 'rspec'
+require 'shoulda-matchers'
 
 require 'task'
+require 'list'
 
 database_configuration = YAML::load(File.open('./db/config.yml'))
 test_configuration = database_configuration["development"]
