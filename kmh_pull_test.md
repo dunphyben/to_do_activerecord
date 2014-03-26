@@ -16,3 +16,7 @@ This is a test of pull request funcitonality from Ben Dunphy's repository.
 * Please enter a <git fetch upstream> command in your terminal to merge these changes.
 
 ##### Please let me know how it all worked out! :)
+
+### Kathryn's response:
+
+Merged upstream changes successfully!
